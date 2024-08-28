@@ -47,7 +47,7 @@ class ListaActivity : AppCompatActivity() {
         }
 
         if (seuIMC > 40.0){
-            situacao = "Thais Carla"
+            situacao = "Pé na cova"
         }
 
         txvResultado.text = "Seu IMC é: %.2f\", você está: ${situacao}".format(seuIMC)
